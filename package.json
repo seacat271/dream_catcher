@@ -8,5 +8,10 @@
     "start": "node index.js"
   },
   "author": "Kyrylo Artemenko",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^3.43.0",
+    "pdf-extractor": "^2.2.0",
+    "pizzip": "^3.1.4"
+  }
 }
