@@ -1,4 +1,8 @@
-console.log("123");
+const parse = require("./parsePDF.js");
+
+data = parse();
+console.log(data);
+console.log("begin");
 // PizZip is required because docx/pptx/xlsx files are all zipped files, and
 // the PizZip library allows us to load the file in memory
 const PizZip = require("pizzip");
@@ -15,6 +19,7 @@ data = {
 
 const fs = require("fs");
 const path = require("path");
+const parsePDF = require("./parsePDF");
 
 // Load the docx file as binary content
 const content = fs.readFileSync(
